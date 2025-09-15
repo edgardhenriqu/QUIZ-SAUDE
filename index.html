@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Saúde</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="Thata.png" alt="Imagem de café" class="quiz-image">
+    <h1>Quiz: Processo Saúde e Doença</h1>
+    <div id="quiz">
+      <div id="question-container">
+        <div id="question"></div>
+        <div id="answer-buttons" class="btn-container"></div>
+      </div>
+      <button id="next-btn" class="btn">Próxima</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Você marcou <span id="score"></span> de <span id="total"></span> pontos!</h2>
+      <button onclick="restartQuiz()" class="btn">Reiniciar Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
